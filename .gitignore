@@ -1,0 +1,25 @@
+# Generated build inputs and release artifacts
+build/
+dist/
+runtime/
+.cache/
+node_modules/
+*.exe
+*.zip
+*.pdb
+SHA256SUMS
+installer/self-test*.txt
+
+# Machine-specific native messaging manifest
+host/com.edgeparallel.bridge.json
+
+# Local editor and operating-system files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
