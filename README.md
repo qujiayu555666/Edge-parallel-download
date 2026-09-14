@@ -2,7 +2,7 @@
 
 为符合条件的公开文件建立多个下载连接，仍在 **Edge 自带下载列表**查看进度、暂停、继续和取消。下载时没有额外窗口。
 
-当前版本：**0.2.0** · Windows 10/11 x64 · Microsoft Edge
+当前版本：**0.2.0** · Windows 10/11 x64 · Microsoft Edge · 使用Codex辅助创作
 
 这是参考 [PCL2](https://github.com/lZiMUl/PCL2) 下载思路的独立实现，与 PCL2 作者及项目无关联，不包含 PCL2 源代码或启动器。
 
