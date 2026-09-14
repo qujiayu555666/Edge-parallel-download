@@ -1,0 +1,29 @@
+name: Build Windows release
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test and build installer
+        shell: powershell
+        run: ./scripts/build.ps1
+      - name: Upload release files
+        uses: actions/upload-artifact@v4
+        with:
+          name: EdgeParallel-windows-x64
+          path: |
+            dist/*-setup.exe
+            dist/*-source.zip
+            dist/SHA256SUMS
+          if-no-files-found: error
+          retention-days: 14
