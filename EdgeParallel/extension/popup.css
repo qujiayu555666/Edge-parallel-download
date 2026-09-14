@@ -1,0 +1,29 @@
+:root { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; color: #1c2b36; background: #f7faf9; color-scheme: light; }
+* { box-sizing: border-box; }
+body { width: 370px; margin: 0; font-size: 13px; }
+header { display: flex; gap: 12px; align-items: center; padding: 18px 22px; background: #fff; border-bottom: 1px solid #e3ebe7; }
+.mark { display: block; }
+h1 { font-size: 18px; margin: 0; }
+main { padding: 18px 22px; }
+.switch-row { display: flex; align-items: center; justify-content: space-between; font-weight: 600; margin-bottom: 18px; }
+input[type=checkbox] { accent-color: #176b43; width: 19px; height: 19px; }
+.field { display: flex; align-items: center; justify-content: space-between; margin: 13px 0; }
+select { width: 177px; background: white; border: 1px solid #c7d5ce; border-radius: 6px; padding: 7px 9px; font: inherit; color: inherit; }
+.status { margin-top: 18px; border-radius: 8px; background: #eaf2ed; padding: 11px 13px; overflow-wrap: anywhere; }
+.status p { margin: 0; line-height: 1.55; }
+#active { font-weight: 600; }
+#result, #decision, #transfer { margin-top: 6px; font-size: 12px; overflow-wrap: anywhere; }
+#result { color: #435a4b; }
+#result:empty, #decision:empty, #transfer:empty { display: none; }
+.actions { display: flex; gap: 9px; margin: 15px 0 17px; }
+button { flex: 1; cursor: pointer; border: 1px solid #b9cec0; border-radius: 7px; background: white; padding: 9px 6px; font: inherit; color: #175c3c; }
+button:hover { background: #eef6f1; }
+button.primary { background: #176b43; border-color: #176b43; color: white; }
+button.primary:hover { background: #115735; }
+button:disabled { opacity: .6; cursor: wait; }
+button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid #117144; outline-offset: 3px; }
+#directForm { display: grid; gap: 8px; border-top: 1px solid #dbe6df; padding-top: 14px; }
+#directUrl { width: 100%; padding: 8px; border: 1px solid #c7d5ce; border-radius: 6px; font: inherit; background: white; }
+#directForm button { width: 100%; }
+footer { font-size: 11px; line-height: 1.6; color: #65756c; border-top: 1px solid #e3ebe7; padding: 10px 22px; }
+a { color: #176b43; }

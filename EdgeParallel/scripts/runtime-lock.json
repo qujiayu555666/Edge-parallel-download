@@ -1,0 +1,8 @@
+{
+  "version": "24.18.0",
+  "platform": "win-x64",
+  "executableUrl": "https://nodejs.org/dist/v24.18.0/win-x64/node.exe",
+  "executableSha256": "9a4eb5f1c29c6a2e93852ead46b999e284a6a5ca8bab4d4e241d587d025a52de",
+  "licenseUrl": "https://raw.githubusercontent.com/nodejs/node/v24.18.0/LICENSE",
+  "licenseSha256": "148eacf7863ef4329224a29398623077200a27194aa075569faf4a0a85566ca5"
+}
