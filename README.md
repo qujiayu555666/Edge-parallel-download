@@ -51,11 +51,3 @@
 - 速度取决于服务器、网络及本机环境，不保证所有下载都加速或达到 PCL2 的速度。
 
 更多信息见[下载机制与故障排查](docs/DOWNLOADS.md)及[权限与隐私](docs/PRIVACY.md)。
-
-## 源码构建与发布
-
-开发者在 Windows x64 上运行 `scripts/build.ps1` 构建图形安装器。构建所需环境、测试及产物说明见[构建与 GitHub 发布](docs/BUILDING.md)。
-
-GitHub 仓库保存源码；将安装器和 `SHA256SUMS` 作为附件上传到对应版本的 **Releases**。不要把构建缓存、运行时或本机安装文件提交到源码仓库。
-
-原创代码采用 [MIT 许可](LICENSE)。PCL2 参考来源和捆绑运行时许可见[第三方声明](THIRD_PARTY_NOTICES.md)。版本变化见[更新记录](CHANGELOG.md)。
