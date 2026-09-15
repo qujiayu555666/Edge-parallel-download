@@ -3,3 +3,4 @@
 *.cs text eol=crlf
 *.png binary
 *.ico binary
+third_party/node/LICENSE.txt text eol=lf
